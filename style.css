@@ -118,3 +118,10 @@ button.overLay:hover {
   width: 300px;
   color: white;
 }
+
+footer {
+  padding: 20px 0;
+  background-color: rgb(32, 23, 23);
+  color: white;
+  text-align: center;
+}
