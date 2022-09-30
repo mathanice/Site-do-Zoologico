@@ -1,97 +1,127 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-nav{
-    background-color: rgb(32, 23, 23);
-    padding: 10px 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  background-color: rgb(32, 23, 23);
+  padding: 10px 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-nav .Logo a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 35px;
-    font-weight: 600;
+nav .Logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
 }
-nav ul{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    padding: 10px;
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 10px;
 }
-nav li{
-    margin-left: 7px;
+nav li {
+  margin-left: 7px;
 }
-nav li a{
-    text-decoration: none;
-    color: #fff;
-    font-size: 18px;
-    font-weight: 500;
-    padding: 8px 15px;
-    border-radius: 5px;
-    transition: 0.3s;
+nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: 0.3s;
 }
-nav li a:hover{
-    background-color: white;
-    color: black;
+nav li a:hover {
+  background-color: white;
+  color: black;
 }
-.Banner{
-    height: 100vh;
-    background: linear-gradient( rgba(0,0,0,0.281), rgba(0,0,0,0.308)),url('background.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center;
-    text-align: center;
+
+.Banner {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.308)),
+    url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
-.Texto .Titulo{
-    color: rgb(255, 255, 255);
-    font-size: 60px;
-    font-weight: 600;
+
+.Texto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 50px 0;
 }
-.Texto .sub_titulo{
-    color: rgb(255, 255, 255);
-    font-size: 58px;
-    font-weight: 600;
+
+.Titulo {
+  color: rgb(255, 255, 255);
+  font-size: 60px;
+  font-weight: 600;
+  text-align: center;
 }
-.Texto .Botões{
-        margin-top: 30px;
+.sub_titulo {
+  color: rgb(255, 255, 255);
+  font-size: 58px;
+  font-weight: 600;
 }
-.Texto .Botões{
-        height: 55px;
-        width: 170px;
-        border-radius: 5px;
-        border: 0;
-        margin: 0 10px;
-        font-size: 20px;
-        font-weight: 500;
-        padding: 0 10px;
-        cursor: pointer;
-        outline: none;
-        transition: 0.3s;
+.Botões {
+  height: 55px;
+  width: 200px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  outline: none;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  position: absolute;
+  bottom: 100px;
+  right: 50%;
+  transform: translateX(100px);
 }
-.Texto .Botões button.n-overLay{
-    color: white;
-    background: none;
-    border: 2px solid white;
+button.n-overLay {
+  color: white;
+  background: none;
+  border: 2px solid white;
 }
-.Texto .Botões button.n-overLay:hover{
-color: black;
-background-color: #fff;
+button.n-overLay:hover {
+  color: black;
+  background-color: #fff;
 }
-.Texto.Botões button.overLay {
-    background: white;
-    color: white;
-    border: 2px solid white;
+button.overLay {
+  background: white;
+  color: black;
+  border: 2px solid white;
 }
-.Texto .Botões button.overLay:hover{
-    color: black;
-    background-color: #fff;
-    }
+button.overLay:hover {
+  color: black;
+  background-color: #fff;
+}
+
+.boxwords {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.boxword1,
+.boxword2 {
+  width: 300px;
+  color: white;
+}
+
+footer {
+  padding: 20px 0;
+  background-color: rgb(32, 23, 23);
+  color: white;
+  text-align: center;
+}
