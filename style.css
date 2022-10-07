@@ -41,7 +41,6 @@ nav li a:hover {
   background-color: white;
   color: black;
 }
-
 .Banner {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.281), rgba(0, 0, 0, 0.308)),
@@ -51,14 +50,12 @@ nav li a:hover {
   background-repeat: no-repeat;
   position: relative;
 }
-
 .Texto {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 0 0 50px 0;
 }
-
 .Titulo {
   color: rgb(255, 255, 255);
   font-size: 60px;
@@ -106,22 +103,63 @@ button.overLay:hover {
   color: black;
   background-color: #fff;
 }
-
 .boxwords {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
 }
-
 .boxword1,
 .boxword2 {
   width: 300px;
   color: white;
 }
-
 footer {
   padding: 20px 0;
   background-color: rgb(32, 23, 23);
   color: white;
   text-align: center;
+}
+.carousel-image1 {
+  display: block;
+  border-radius: 8px;
+  margin: 0px auto;
+  min-width: 75px;
+  max-width: 35%;
+}
+.carousel-cell1{
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+  margin: 0px auto;
+  max-width: 60%;
+  font-size: 20px;
+  font-weight: 300;
+  margin-block-end: 100px;
+}
+.Descrição1{  
+  margin: 0px auto;
+  max-width: 60%;
+  font-size: 30px;
+  font-weight: 600;
+  justify-content:space-evenly;
+  color: white;
+  margin-block-end: 50px;
+}
+.Vegetação { 
+  color: #fff;
+  margin: 40px auto;
+  max-width: 60%;
+  font-size: 20px;
+  font-weight: 300;
+  margin-block-end: 50px;
+}
+.Zoo { 
+  color: #fff;
+  margin: 40px auto;
+  max-width: 60%;
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 50px;
+  margin-block-end: 100px;
 }
